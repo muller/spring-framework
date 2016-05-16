@@ -1,3 +1,17 @@
+
+## Spring framework with Bazel
+This fork of Spring Framework using bazel.io to compile and run a small set of tests.
+
+It might be interesting for who is starting with Bazel as it covers:
+- java compilation,
+- internal dependencies,
+- external dependencies,
+- java tests,
+- custom rules (jarjar),
+- continuous integration with travis (with cache)
+
+[![Build Status](https://travis-ci.org/muller/spring-framework.svg?branch=master)](https://travis-ci.org/muller/spring-framework)
+
 ## Spring Framework
 The Spring Framework provides a comprehensive programming and configuration
 model for modern Java-based enterprise applications -- on any kind of deployment

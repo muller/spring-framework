@@ -1,0 +1,31 @@
+
+java_library(
+    name = "support",
+    srcs = glob(["*.java"]),
+    visibility = ["//visibility:public"],
+    deps = [
+        "//lib:commons-logging",
+        "//external:groovy",
+        "//spring-beans-groovy/src/main/java/org/springframework/beans/factory/groovy:reader",
+        "//spring-beans/src/main/java/org/springframework/beans",
+        "//spring-beans/src/main/java/org/springframework/beans/factory",
+        "//spring-beans/src/main/java/org/springframework/beans/factory/config",
+        "//spring-beans/src/main/java/org/springframework/beans/factory/support",
+        "//spring-beans/src/main/java/org/springframework/beans/factory/xml",
+        "//spring-beans/src/main/java/org/springframework/beans/support",
+        "//spring-context/src/main/java/org/springframework/context",
+        "//spring-context/src/main/java/org/springframework/context/event",
+        "//spring-context/src/main/java/org/springframework/context/expression",
+        "//spring-context/src/main/java/org/springframework/context/i18n",
+        "//spring-context/src/main/java/org/springframework/context/weaving",
+        "//spring-context/src/main/java/org/springframework/scripting/groovy",
+        "//spring-core/src/main/java/org/springframework/core",
+        "//spring-core/src/main/java/org/springframework/core/convert",
+        "//spring-core/src/main/java/org/springframework/core/convert/support",
+        "//spring-core/src/main/java/org/springframework/core/env",
+        "//spring-core/src/main/java/org/springframework/core/io",
+        "//spring-core/src/main/java/org/springframework/core/io/support",
+        "//spring-core/src/main/java/org/springframework/lang",
+        "//spring-core/src/main/java/org/springframework/util",
+    ]
+)

@@ -1,0 +1,26 @@
+
+java_library(
+    name = "context",
+    srcs = glob(["*.java"]),
+    visibility = ["//visibility:public"],
+    deps = [
+        "//lib:portlet-api",
+        "//lib:servlet-api",
+        "//spring-beans/src/main/java/org/springframework/beans",
+        "//spring-beans/src/main/java/org/springframework/beans/factory",
+        "//spring-beans/src/main/java/org/springframework/beans/factory/config",
+        "//spring-beans/src/main/java/org/springframework/beans/factory/support",
+        "//spring-beans/src/main/java/org/springframework/beans/factory/xml",
+        "//spring-context/src/main/java/org/springframework/context",
+        "//spring-context/src/main/java/org/springframework/context/support",
+        "//spring-context/src/main/java/org/springframework/jndi",
+        "//spring-core/src/main/java/org/springframework/core/env",
+        "//spring-core/src/main/java/org/springframework/core/io",
+        "//spring-core/src/main/java/org/springframework/core/io/support",
+        "//spring-core/src/main/java/org/springframework/util",
+        "//spring-web/src/main/java/org/springframework/web/context",
+        "//spring-web/src/main/java/org/springframework/web/context/request",
+        "//spring-web/src/main/java/org/springframework/web/context/support",
+        "//spring-webmvc-portlet/src/main/java/org/springframework/web/portlet/util",
+    ],
+)

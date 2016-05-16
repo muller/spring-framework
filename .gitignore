@@ -37,3 +37,17 @@ out
 test-output
 atlassian-ide-plugin.xml
 .gradletasknamecache
+
+# bazel
+bazel-bin
+bazel-genfiles
+bazel-out
+bazel-spring-framework
+bazel-testlogs
+
+!spring-aop/src/test/java/org/springframework/aop/target
+!spring-aop/src/test/resources/org/springframework/aop/target
+!spring-aop/src/main/java/org/springframework/aop/target
+!spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/target
+!spring-context/src/test/java/org/springframework/aop/target
+!spring-context/src/test/resources/org/springframework/aop/target
