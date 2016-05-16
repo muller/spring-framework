@@ -12,6 +12,10 @@ It might be interesting for who is starting with Bazel as it covers:
 
 [![Build Status](https://travis-ci.org/muller/spring-framework.svg?branch=master)](https://travis-ci.org/muller/spring-framework)
 
+### Travis CI cache
+
+The build #23 ran in 5 min 25 sec, I am expecting the next build (this change) to run in about 1 and a half minute by using the cache.
+
 ## Spring Framework
 The Spring Framework provides a comprehensive programming and configuration
 model for modern Java-based enterprise applications -- on any kind of deployment
